@@ -1,1 +1,1 @@
-"# otenki-girl-weather-v2" 
+# otenki-girl-weather-v2
