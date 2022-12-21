@@ -1,7 +1,7 @@
 const countSpan = document.getElementById("count")
 
 if (localStorage.getItem('localStorageCountNum') != null) {
-    countSpan.innerText = localStorage.getItem('localStorageCountNum')
+    countSpan.innerText = `맑음인형 갯수 : ` + localStorage.getItem('localStorageCountNum')
 }
 
 function countPlusOne() {
