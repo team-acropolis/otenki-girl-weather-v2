@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +18,7 @@
     <script src="./scripts/count.js" defer></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
+
 <body>
     <div class="bg">
         <div class="container">
@@ -32,37 +34,37 @@
                     <div class="botCtn">
                         <ul>
                             <li id="seoul">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">서울</span>
                             </li>
                             <li id="gyenggi">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">경기</span>
                             </li>
                             <li id="gangwon">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">강원</span>
                             </li>
                             <li id="chungcheong">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">충청</span>
                             </li>
                             <li id="jeolla">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">전라</span>
                             </li>
                             <li id="gyengsang">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">경상</span>
                             </li>
                             <li id="jeju">
-                                <span class="temp"></span>
+                                <span class="temp" id="bot_temp"></span>
                                 <span class="detail_temp"></span>
                                 <span class="city">제주</span>
                             </li>
@@ -72,9 +74,11 @@
                 <div class="line"></div>
                 <aside class="asideInner">
                     <div class="twitter">
-                        <a class="twitter-timeline" data-height="320" data-tweet-limit="10" data-lang="ko"  data-chrome="noheader noscrollbar noborders transparent" href="https://twitter.com/tenkinoko_movie?ref_src=twsrc%5Etfw"></a>
+                        <a class="twitter-timeline" data-height="320" data-tweet-limit="10" data-lang="ko"
+                            data-chrome="noheader noscrollbar noborders transparent"
+                            href="https://twitter.com/tenkinoko_movie?ref_src=twsrc%5Etfw"></a>
                     </div>
-                    
+
                     <div class="countBtn" onclick="countPlusOne()">
                         <div id="count"></div>
                     </div>
@@ -83,4 +87,5 @@
         </div>
     </div>
 </body>
+
 </html>

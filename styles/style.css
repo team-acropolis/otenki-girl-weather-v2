@@ -143,7 +143,9 @@
     height: 20%;
 }
 
-
+#bot_temp {
+    height: min-content;
+}
 
 .line {
     width: 0;
