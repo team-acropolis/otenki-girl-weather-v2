@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -10,18 +10,18 @@
     list-style: none;
 }
 
-.bg{
+.bg {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     /* border: 1px solid red; */
     background: #ccc;
 }
 
-.container{
+.container {
     width: 70%;
     height: 60%;
     background: rgba(255, 255, 255, 0.16);
@@ -31,83 +31,88 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     /* border: 1px solid red; */
 }
 
-.ctnWrap{
+.ctnWrap {
     width: 90%;
     height: 84%;
     display: flex;
     position: relative;
-    
+
     /* border: 1px solid orange; */
 }
 
-.mainInner{
+.mainInner {
     width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    
+
     /* border: 2px solid blue; */
 }
 
-.topCtn{
+.topCtn {
     width: 100%;
     height: 66%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+
     /* border: 1px dotted skyblue; */
 }
-.topCtn span{
+
+.topCtn span {
     width: 100%;
     height: 100%;
     text-align: center;
 }
 
-.detailTemp{
+.detailTemp {
     width: 100%;
     height: 100%;
     text-align: center;
 }
 
-.topCtn span:nth-child(1){
+.topCtn span:nth-child(1) {
     height: 16%
 }
-.topCtn span:nth-child(2){
+
+.topCtn span:nth-child(2) {
     height: 16%
 }
-.topCtn span:nth-child(3){
+
+.topCtn span:nth-child(3) {
     height: 32%
 }
-.topCtn span:nth-child(4){
+
+.topCtn span:nth-child(4) {
     height: 16%
 }
-.topCtn span:nth-child(5){
+
+.topCtn span:nth-child(5) {
     height: 16%
 }
 
 
 
-.botCtn{
+.botCtn {
     width: 100%;
     height: 34%;
-    
+
     /* border: 1px dotted lightcoral; */
 }
 
-.botCtn ul{
+.botCtn ul {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.botCtn li{
+.botCtn li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,24 +122,26 @@
     text-align: center;
 }
 
-.botCtn span{
+.botCtn span {
     width: 100%;
     height: 100%;
 }
 
-.botCtn .temp{
+.botCtn .temp {
     height: 44%;
 }
-.botCtn .detail_temp{
+
+.botCtn .detail_temp {
     height: 16%;
 }
-.botCtn .city{
+
+.botCtn .city {
     height: 20%;
 }
 
 
 
-.line{
+.line {
     width: 0;
     height: 80%;
     border: 1px solid rgba(255, 255, 255, 0.45);
@@ -145,7 +152,7 @@
 }
 
 
-.asideInner{
+.asideInner {
     width: 30%;
     height: 100%;
     position: absolute;
@@ -156,21 +163,22 @@
     /* border: 1px solid purple; */
 }
 
-.twitter{
+.twitter {
     width: 100%;
     height: 66%;
     border-radius: 30px;
-    
+
     /* border: 1px dotted lightgreen; */
 }
-.countBtn{
+
+.countBtn {
     width: 100%;
     height: 17.5%;
     border-radius: 30px;
     position: absolute;
     bottom: 0;
     background: url('../bg/Teru-teru-bozu_4.jpg');
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,11 +186,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    
+
     /* border: 1px dotted lightcyan; */
 }
 
-#count{
+#count {
     text-align: center;
     width: 100%;
     height: 50px;
