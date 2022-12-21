@@ -17,6 +17,6 @@ function countPlusOne() {
         plusOneNum = parseInt(localStorage.getItem('localStorageCountNum')) + 1
         localStorage.setItem('localStorageCountNum', parseInt(plusOneNum))
         console.log(localStorage.getItem('localStorageCountNum'))
-        countSpan.innerText = localStorage.getItem('localStorageCountNum')
+        countSpan.innerText = `맑음인형 갯수 : ` + localStorage.getItem('localStorageCountNum')
     }
 }   
