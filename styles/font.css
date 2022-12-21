@@ -22,49 +22,56 @@
     font-display: swap;
 }
 
-*{
+html {
+    font-size: 10px;
+}
+
+* {
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
-#city{
+#city {
     font-family: 'AritaBuriM';
-    font-size: 46px;
-}
-.topCtn span:nth-child(2){
-    font-family: 'AritaBuriM';
-    font-size: 46px;
+    font-size: 4rem;
 }
 
-#temp{
+.topCtn span:nth-child(2) {
+    font-family: 'AritaBuriM';
+    font-size: 3.7rem;
+}
+
+#temp {
     font-family: 'AritaBuriB';
-    font-size: 90px;
+    font-size: 9rem;
 }
 
-#desc{
+#desc {
     font-family: 'AritaBuriM';
-    font-size: 40px;
-}
-#detail_temp{
-    font-family: 'AritaBuriM';
-    font-size: 40px;
+    font-size: 4rem;
 }
 
-.botCtn .temp{
+#detail_temp {
+    font-family: 'AritaBuriM';
+    font-size: 3.8rem;
+}
+
+.botCtn .temp {
     font-family: 'AritaBuriB';
-    font-size: 60px;
+    font-size: 4rem;
 }
 
-.botCtn .detail_temp{
+.botCtn .detail_temp {
     font-family: 'AritaBuriM';
-    font-size: 20px;
+    font-size: 2rem;
 }
-.botCtn .city{
+
+.botCtn .city {
     font-family: 'AritaBuriM';
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 
-#count{
+#count {
     font-family: 'AritaBuriM';
-    font-size: 46px;
+    font-size: 4rem;
 }
