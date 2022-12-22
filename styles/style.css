@@ -196,13 +196,13 @@
     cursor: pointer;
     overflow: visible;
 
-    transition: transform .1s;
+    transition: transform .4s;
 
     /* border: 1px dotted lightcyan; */
 }
 
 .countBtn:active {
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.2, 1.2, 1.2);
 }
 
 #count {
