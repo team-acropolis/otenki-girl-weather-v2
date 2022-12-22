@@ -1,8 +1,10 @@
 const countSpan = document.getElementById("count")
 
-if (localStorage.getItem('localStorageCountNum') != null) {
-    countSpan.innerText = `맑음인형 갯수 : ` + localStorage.getItem('localStorageCountNum')
-}
+setInterval(() => {
+    if (localStorage.getItem('localStorageCountNum') != null) {
+        countSpan.innerText = `맑음인형 갯수 : ` + localStorage.getItem('localStorageCountNum')
+    }
+}, 100);
 
 function countPlusOne() {
     if (localStorage.getItem('localStorageCountNum') == null) {
