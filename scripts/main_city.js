@@ -22,7 +22,7 @@ function onGeoOk(position) {
             $('#city').text(resp.name + ',');
             $('#temp').text(Math.round(resp.main.temp) + "°");
             $('#desc').text(resp.weather[0].description);
-            $('#detail_temp').text("최고 : "+Math.round(resp.main.temp_max) + "° " + "최저 : "+Math.round(resp.main.temp_min) + "°");
+            $('#detail_temp').text("최저 : " + Math.round(resp.main.temp_min) + "° " + "최고 : " + Math.round(resp.main.temp_max) + "°");
         }
     });
 
