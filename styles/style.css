@@ -18,7 +18,7 @@
     justify-content: center;
 
     /* border: 1px solid red; */
-    background: url('../bg/K2C_Ltd._29.webp');
+    background: url("../bg/K2C_Ltd._29.webp");
     background-size: cover;
     background-position: center;
 }
@@ -81,26 +81,24 @@
 }
 
 .topCtn span:nth-child(1) {
-    height: 16%
+    height: 16%;
 }
 
 .topCtn span:nth-child(2) {
-    height: 16%
+    height: 16%;
 }
 
 .topCtn span:nth-child(3) {
-    height: 32%
+    height: 32%;
 }
 
 .topCtn span:nth-child(4) {
-    height: 16%
+    height: 16%;
 }
 
 .topCtn span:nth-child(5) {
-    height: 16%
+    height: 16%;
 }
-
-
 
 .botCtn {
     width: 100%;
@@ -157,7 +155,6 @@
     transform: translate(-50%, -50%);
 }
 
-
 .asideInner {
     width: 30%;
     height: 100%;
@@ -185,7 +182,7 @@
     border-radius: 30px;
     position: absolute;
     bottom: 0;
-    background: url('../bg/Teru-teru-bozu_4.jpg');
+    background: url("../bg/Teru-teru-bozu_4.jpg");
     box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);
     background-position: center;
     background-size: cover;
@@ -196,7 +193,7 @@
     cursor: pointer;
     overflow: visible;
 
-    transition: transform .5s;
+    transition: transform 0.5s;
 
     /* border: 1px dotted lightcyan; */
 }
