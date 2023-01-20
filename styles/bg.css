@@ -1,47 +1,71 @@
 .bg.bg1 {
-    background: url('../bg/Hina_and_Hodaka_eat_lunch_together.png') no-repeat center/cover;
+    background: url("../bg/Hina_and_Hodaka_eat_lunch_together.png") no-repeat
+        center/cover;
 }
 
 .bg.bg2 {
-    background: url('../bg/Hina_cooks_for_Hodaka.png') no-repeat center/cover;
+    background: url("../bg/Hina_cooks_for_Hodaka.png") no-repeat center/cover;
 }
 
 .bg.bg3 {
-    background: url('../bg/Hodaka\'s_thank-you_to_Keisuke.png') no-repeat center/cover;
+    background: url("../bg/Hodaka's_thank-you_to_Keisuke.png") no-repeat
+        center/cover;
 }
 
 .bg.bg4 {
-    background: url('../bg/Hodaka_and_Nagi_sing_karaoke.webp') no-repeat center/cover;
+    background: url("../bg/Hodaka_and_Nagi_sing_karaoke.webp") no-repeat
+        center/cover;
 }
 
 .bg.bg5 {
-    background: url('../bg/Hodaka_finds_Ame_again.png') no-repeat center/cover;
+    background: url("../bg/Hodaka_finds_Ame_again.png") no-repeat center/cover;
 }
 
 .bg.bg6 {
-    background: url('../bg/Hodaka_looks_at_the_Sunshine_Girl_requests.webp') no-repeat center/cover;
+    background: url("../bg/Hodaka_looks_at_the_Sunshine_Girl_requests.webp")
+        no-repeat center/cover;
 }
 
 .bg.bg7 {
-    background: url('../bg/Hodaka_meets_Hina.png') no-repeat center/cover;
+    background: url("../bg/Hodaka_meets_Hina.png") no-repeat center/cover;
 }
 
 .bg.bg8 {
-    background: url('../bg/K2C_Ltd._29.webp') no-repeat center/cover;
+    background: url("../bg/K2C_Ltd._29.webp") no-repeat center/cover;
 }
 
 .bg.bg9 {
-    background: url('../bg/Nagi_gives_Hodaka_advice.png') no-repeat center/cover;
+    background: url("../bg/Nagi_gives_Hodaka_advice.png") no-repeat center/cover;
 }
 
 .bg.bg10 {
-    background: url('../bg/Otenki-girl.jp.jpg') no-repeat center/cover;
+    background: url("../bg/Otenki-girl.jp.jpg") no-repeat center/cover;
 }
 
 .bg.bg11 {
-    background: url('../bg/The_end.png') no-repeat center/cover;
+    background: url("../bg/The_end.png") no-repeat center/cover;
 }
 
 .bg.bg12 {
-    background: url('../bg/The_trio_celebrate_the_completion_of_their_first_job.png') no-repeat center/cover;
+    background: url("../bg/The_trio_celebrate_the_completion_of_their_first_job.png")
+        no-repeat center/cover;
+}
+
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+
+    content: url("../bg/Hina_and_Hodaka_eat_lunch_together.png")
+        url("../bg/Hina_cooks_for_Hodaka.png")
+        url("../bg/Hodaka's_thank-you_to_Keisuke.png")
+        url("../bg/Hodaka_and_Nagi_sing_karaoke.webp")
+        url("../bg/Hodaka_finds_Ame_again.png")
+        url("../bg/Hodaka_looks_at_the_Sunshine_Girl_requests.webp")
+        url("../bg/Hodaka_meets_Hina.png") url("../bg/K2C_Ltd._29.webp")
+        url("../bg/Nagi_gives_Hodaka_advice.png")
+        url("../bg/Otenki-girl.jp.jpg") url("../bg/The_end.png")
+        url("../bg/The_trio_celebrate_the_completion_of_their_first_job.png");
 }
